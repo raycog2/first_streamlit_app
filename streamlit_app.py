@@ -67,9 +67,9 @@ except URLError as e:
 
 
 #my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-my_cur = my_cnx.cursor()
-my_cur.execute("use warehouse compute_wh") 
-my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
+#my_cur = my_cnx.cursor()
+#my_cur.execute("use warehouse compute_wh") 
+#my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
 
 streamlit.header("The fruit load list contains:")
