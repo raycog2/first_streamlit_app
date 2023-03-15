@@ -61,7 +61,7 @@ except URLError as e:
 
 
 #debug step dont run past here
-streamlit.stop()
+#streamlit.stop()
 
 
 
